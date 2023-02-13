@@ -1,0 +1,894 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1926279045461312}
+  m_IsPrefabParent: 1
+--- !u!1 &1926279045461312
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4438686930184609}
+  - 114: {fileID: 114979723123820493}
+  m_Layer: 0
+  m_Name: ui_result_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4438686930184609
+Transform:
+  m_GameObject: {fileID: 1926279045461312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114979723123820493
+MonoBehaviour:
+  m_GameObject: {fileID: 1926279045461312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: c48902d598361224aac91a732095aa3f, type: 2}
+  mSprites:
+  - name: ui_cmn_icon_animal
+    x: 969
+    y: 810
+    width: 34
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_icon_ring
+    x: 969
+    y: 17
+    width: 36
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_icon_rsring
+    x: 870
+    y: 811
+    width: 36
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_scroll_bar_h
+    x: 528
+    y: 61
+    width: 16
+    height: 8
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg
+    x: 761
+    y: 284
+    width: 16
+    height: 16
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_spacer
+    x: 769
+    y: 374
+    width: 8
+    height: 8
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_toggle_check
+    x: 969
+    y: 57
+    width: 41
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_cmn_toggle_checkbox
+    x: 241
+    y: 406
+    width: 38
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_eff_cmn_star_2
+    x: 620
+    y: 395
+    width: 49
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_event_ring_icon
+    x: 871
+    y: 982
+    width: 42
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_load_img_bg
+    x: 797
+    y: 276
+    width: 118
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_mm_mileage_bonus_eff_0
+    x: 0
+    y: 404
+    width: 237
+    height: 237
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_player_set_item_bg
+    x: 668
+    y: 18
+    width: 143
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_result_bg_1
+    x: 241
+    y: 448
+    width: 563
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 25
+    paddingBottom: 0
+  - name: ui_result_bg_10
+    x: 847
+    y: 177
+    width: 37
+    height: 27
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_result_bg_11
+    x: 230
+    y: 19
+    width: 140
+    height: 194
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_result_bg_12
+    x: 283
+    y: 263
+    width: 145
+    height: 181
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_result_bg_13
+    x: 557
+    y: 60
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_result_bg_14
+    x: 861
+    y: 851
+    width: 52
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_result_bg_2
+    x: 241
+    y: 508
+    width: 349
+    height: 133
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 15
+  - name: ui_result_bg_4
+    x: 976
+    y: 874
+    width: 32
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_result_bg_5
+    x: 888
+    y: 171
+    width: 10
+    height: 33
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_result_bg_6
+    x: 626
+    y: 7
+    width: 33
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_result_bg_7
+    x: 621
+    y: 264
+    width: 50
+    height: 32
+    borderLeft: 24
+    borderRight: 24
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_result_bg_8
+    x: 757
+    y: 62
+    width: 53
+    height: 23
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_result_bg_9
+    x: 374
+    y: 171
+    width: 297
+    height: 88
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 4
+  - name: ui_result_bonus_bar
+    x: 979
+    y: 937
+    width: 32
+    height: 27
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 16
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_result_bonus_bar_deco
+    x: 739
+    y: 214
+    width: 13
+    height: 13
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 3
+  - name: ui_result_bonus_eff_0
+    x: 0
+    y: 18
+    width: 226
+    height: 195
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 0
+    paddingTop: 11
+    paddingBottom: 26
+  - name: ui_result_bonus_eff_1
+    x: 374
+    y: 73
+    width: 179
+    height: 94
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_result_btn_whitebase
+    x: 432
+    y: 298
+    width: 94
+    height: 68
+    borderLeft: 44
+    borderRight: 60
+    borderTop: 38
+    borderBottom: 44
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_result_icon_range
+    x: 283
+    y: 219
+    width: 53
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_result_icon_score
+    x: 969
+    y: 97
+    width: 42
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_result_special_bg_0
+    x: 0
+    y: 645
+    width: 379
+    height: 379
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_result_special_eff_1
+    x: 0
+    y: 217
+    width: 279
+    height: 183
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 2
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_result_special_egg
+    x: 668
+    y: 61
+    width: 85
+    height: 106
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_tex_player_set_00_son
+    x: 675
+    y: 171
+    width: 60
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 18
+    paddingTop: 21
+    paddingBottom: 3
+  - name: ui_tex_player_set_01_tai
+    x: 907
+    y: 81
+    width: 58
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 18
+    paddingBottom: 4
+  - name: ui_tex_player_set_02_knu
+    x: 808
+    y: 801
+    width: 58
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 28
+    paddingBottom: 6
+  - name: ui_tex_player_set_03_amy
+    x: 919
+    y: 908
+    width: 56
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 20
+    paddingTop: 20
+    paddingBottom: 4
+  - name: ui_tex_player_set_04_sha
+    x: 815
+    y: 31
+    width: 88
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 21
+    paddingBottom: 5
+  - name: ui_tex_player_set_05_bla
+    x: 757
+    y: 89
+    width: 64
+    height: 76
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 16
+    paddingTop: 1
+    paddingBottom: 3
+  - name: ui_tex_player_set_06_rou
+    x: 825
+    y: 105
+    width: 78
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 15
+    paddingBottom: 5
+  - name: ui_tex_player_set_07_ome
+    x: 761
+    y: 236
+    width: 70
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 13
+    paddingTop: 36
+    paddingBottom: 8
+  - name: ui_tex_player_set_08_big
+    x: 528
+    y: 10
+    width: 94
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 26
+    paddingBottom: 8
+  - name: ui_tex_player_set_09_cre
+    x: 709
+    y: 304
+    width: 84
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 17
+    paddingBottom: 1
+  - name: ui_tex_player_set_10_esp
+    x: 847
+    y: 208
+    width: 58
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 10
+    paddingBottom: 6
+  - name: ui_tex_player_set_11_cha
+    x: 919
+    y: 968
+    width: 58
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 19
+    paddingBottom: 5
+  - name: ui_tex_player_set_12_vec
+    x: 757
+    y: 169
+    width: 86
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 20
+    paddingBottom: 2
+  - name: ui_tex_player_set_13_sil
+    x: 432
+    y: 370
+    width: 90
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 5
+  - name: ui_tex_player_set_14_met
+    x: 907
+    y: 19
+    width: 58
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 18
+    paddingBottom: 4
+  - name: ui_tex_player_set_15_ami
+    x: 861
+    y: 907
+    width: 54
+    height: 59
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 21
+    paddingTop: 19
+    paddingBottom: 2
+  - name: ui_tex_player_set_16_cla
+    x: 919
+    y: 850
+    width: 53
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 22
+    paddingTop: 24
+    paddingBottom: 2
+  - name: ui_tex_player_set_17_tik
+    x: 808
+    y: 970
+    width: 59
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 18
+    paddingTop: 24
+    paddingBottom: 2
+  - name: ui_tex_player_set_18_gam
+    x: 909
+    y: 211
+    width: 56
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 20
+    paddingTop: 15
+    paddingBottom: 4
+  - name: ui_tex_player_set_19_hsh
+    x: 675
+    y: 370
+    width: 90
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 5
+  - name: ui_tex_player_set_20_hro
+    x: 621
+    y: 300
+    width: 84
+    height: 66
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 8
+    paddingBottom: 6
+  - name: ui_tex_player_set_21_hom
+    x: 769
+    y: 386
+    width: 88
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 17
+    paddingBottom: 5
+  - name: ui_tex_player_set_22_mep
+    x: 675
+    y: 231
+    width: 82
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 14
+    paddingBottom: 1
+  - name: ui_tex_player_set_23_psi
+    x: 526
+    y: 370
+    width: 90
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 5
+  - name: ui_tex_player_set_24_xso
+    x: 797
+    y: 312
+    width: 60
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 18
+    paddingTop: 8
+    paddingBottom: 2
+  - name: ui_tex_player_set_25_xta
+    x: 907
+    y: 143
+    width: 60
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 19
+    paddingTop: 15
+    paddingBottom: 4
+  - name: ui_tex_player_set_26_xkn
+    x: 530
+    y: 294
+    width: 87
+    height: 72
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 3
+    paddingBottom: 5
+  - name: ui_tex_player_set_27_wer
+    x: 374
+    y: 6
+    width: 62
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 17
+    paddingTop: 17
+    paddingBottom: 0
+  - name: ui_tex_player_set_28_sti
+    x: 440
+    y: 8
+    width: 84
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 19
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

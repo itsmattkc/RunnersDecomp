@@ -1,0 +1,11 @@
+namespace Message
+{
+	internal enum CommonID
+	{
+		HITDAMAGE = 0x4000,
+		DAMAGE_SUCCEED,
+		ATTACK_GUARD,
+		START_ABILITYEFFECT,
+		END_ABILITYEFFECT
+	}
+}

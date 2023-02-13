@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.unity3d.player"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0">
+	
+	<uses-sdk android:minSdkVersion="7" />
+
+	<supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"/>
+
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:debuggable="true">
+        <activity
+			android:name="com.unity3d.player.UnityPlayerProxyActivity"
+			android:launchMode="singleTask"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+			android:name="com.unity3d.player.UnityPlayerActivity"
+			android:launchMode="singleTask"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
+        <activity
+			android:name="com.unity3d.player.UnityPlayerNativeActivity"
+			android:launchMode="singleTask"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+            <meta-data android:name="android.app.lib_name" android:value="unity" />
+        </activity>
+        <activity
+			android:name="com.unity3d.player.VideoPlayer"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
+
+        <!-- AppAdForce ADD -->
+        <receiver
+            android:exported="true"
+            android:name="jp.appAdForce.android.InstallReceiver" >
+            <intent-filter >
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+		<receiver
+            android:name="jp.appAdForce.android.NotifyReceiver" 
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.unity3d.player" />
+            </intent-filter>
+     </receiver>
+		
+		<meta-data
+            android:name="APPADFORCE_CRYPTO_SALT"
+			android:value="" />
+        <meta-data
+            android:name="APPADFORCE_APP_ID"
+            android:value="" />
+        <!-- http://app-adforce.jp/ad -->
+        <meta-data
+            android:name="APPADFORCE_SERVER_URL"
+            android:value="" />
+        <meta-data
+            android:name="ANALYTICS_APP_KEY"
+            android:value="" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />	
+    <!-- For International -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- For International End -->
+    
+    <!-- For Push Notifification -->
+    <uses-permission android:name="com.unity3d.player.permission.C2D_MESSAGE" />
+    <permission
+        android:name="com.unity3d.player.permission.C2D_MESSAGE" 
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<!-- For Push Notification End -->
+</manifest>

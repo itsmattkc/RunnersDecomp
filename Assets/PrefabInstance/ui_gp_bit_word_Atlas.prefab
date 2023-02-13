@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1466017285191076}
+  m_IsPrefabParent: 1
+--- !u!1 &1466017285191076
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4052035343792654}
+  - 114: {fileID: 114526000785900672}
+  m_Layer: 0
+  m_Name: ui_gp_bit_word_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4052035343792654
+Transform:
+  m_GameObject: {fileID: 1466017285191076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114526000785900672
+MonoBehaviour:
+  m_GameObject: {fileID: 1466017285191076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: b354b74aee9a36142afffc4bc8bada20, type: 2}
+  mSprites:
+  - name: ui_gp_bit_spacer_attention
+    x: 504
+    y: 375
+    width: 4
+    height: 72
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 10
+  - name: ui_gp_bit_word_1
+    x: 428
+    y: 138
+    width: 51
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 229
+    paddingRight: 228
+    paddingTop: 10
+    paddingBottom: 9
+  - name: ui_gp_bit_word_2
+    x: 411
+    y: 215
+    width: 63
+    height: 75
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 223
+    paddingRight: 222
+    paddingTop: 8
+    paddingBottom: 9
+  - name: ui_gp_bit_word_3
+    x: 343
+    y: 215
+    width: 64
+    height: 75
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 222
+    paddingRight: 222
+    paddingTop: 10
+    paddingBottom: 7
+  - name: ui_gp_bit_word_attention
+    x: 0
+    y: 294
+    width: 508
+    height: 72
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 10
+  - name: ui_gp_bit_word_clear
+    x: 0
+    y: 125
+    width: 245
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 131
+    paddingRight: 132
+    paddingTop: 8
+    paddingBottom: 4
+  - name: ui_gp_bit_word_extreme
+    x: 0
+    y: 451
+    width: 508
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 16
+    paddingBottom: 15
+  - name: ui_gp_bit_word_failed
+    x: 0
+    y: 209
+    width: 339
+    height: 81
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 87
+    paddingRight: 82
+    paddingTop: 5
+    paddingBottom: 6
+  - name: ui_gp_bit_word_go
+    x: 249
+    y: 121
+    width: 175
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 167
+    paddingRight: 166
+    paddingTop: 4
+    paddingBottom: 4
+  - name: ui_gp_bit_word_speed
+    x: 0
+    y: 370
+    width: 500
+    height: 77
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 7
+    paddingBottom: 8
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1210267392011604}
+  m_IsPrefabParent: 1
+--- !u!1 &1210267392011604
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4226019261450923}
+  - 114: {fileID: 114383390049126377}
+  m_Layer: 0
+  m_Name: ui_age_verification_window_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4226019261450923
+Transform:
+  m_GameObject: {fileID: 1210267392011604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114383390049126377
+MonoBehaviour:
+  m_GameObject: {fileID: 1210267392011604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 464099940546397498f2d3896b07d2c7, type: 2}
+  mSprites:
+  - name: ui_cmn_img_circle
+    x: 166
+    y: 192
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg
+    x: 26
+    y: 23
+    width: 16
+    height: 16
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 4
+  - name: ui_cmn_img_window_bg_h
+    x: 98
+    y: 69
+    width: 32
+    height: 32
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 6
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg2
+    x: 50
+    y: 28
+    width: 56
+    height: 36
+    borderLeft: 26
+    borderRight: 26
+    borderTop: 4
+    borderBottom: 26
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 6
+    paddingBottom: 6
+  - name: ui_cmn_spacer
+    x: 154
+    y: 149
+    width: 8
+    height: 8
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_gn_window_deco_1
+    x: 0
+    y: 43
+    width: 46
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 10
+    paddingTop: 1
+    paddingBottom: 36
+  - name: ui_gn_window_deco_2
+    x: 50
+    y: 68
+    width: 44
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 62
+  - name: ui_gn_window_deco_parts_stars
+    x: 98
+    y: 161
+    width: 64
+    height: 95
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_gn_window_deco_parts1
+    x: 154
+    y: 58
+    width: 63
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_gn_window_deco_parts2
+    x: 98
+    y: 105
+    width: 52
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 6
+    paddingBottom: 6
+  - name: ui_gn_window_deco_parts3
+    x: 166
+    y: 125
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_itemset_2_dec_2
+    x: 221
+    y: 29
+    width: 30
+    height: 30
+    borderLeft: 12
+    borderRight: 12
+    borderTop: 12
+    borderBottom: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_option_icon_arrow
+    x: 0
+    y: 9
+    width: 22
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 6
+    paddingTop: 4
+    paddingBottom: 2
+  - name: ui_option_window_input
+    x: 221
+    y: 63
+    width: 18
+    height: 58
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

@@ -1,0 +1,439 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1077628153861949}
+  m_IsPrefabParent: 1
+--- !u!1 &1077628153861949
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4526807611929253}
+  - 114: {fileID: 114757072033731670}
+  m_Layer: 0
+  m_Name: ui_cmn_btn_bg_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4526807611929253
+Transform:
+  m_GameObject: {fileID: 1077628153861949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114757072033731670
+MonoBehaviour:
+  m_GameObject: {fileID: 1077628153861949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: b390345e143b3d74da5cac7597e976c8, type: 2}
+  mSprites:
+  - name: ui_cmn_btn_bg_m_4
+    x: 0
+    y: 411
+    width: 129
+    height: 101
+    borderLeft: 44
+    borderRight: 44
+    borderTop: 38
+    borderBottom: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_m_gr_0
+    x: 133
+    y: 317
+    width: 90
+    height: 96
+    borderLeft: 38
+    borderRight: 38
+    borderTop: 32
+    borderBottom: 48
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_m_gr_1
+    x: 415
+    y: 416
+    width: 90
+    height: 96
+    borderLeft: 38
+    borderRight: 38
+    borderTop: 32
+    borderBottom: 48
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_m_gr_2
+    x: 227
+    y: 417
+    width: 90
+    height: 95
+    borderLeft: 38
+    borderRight: 38
+    borderTop: 34
+    borderBottom: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_ms_4
+    x: 0
+    y: 312
+    width: 90
+    height: 95
+    borderLeft: 38
+    borderRight: 38
+    borderTop: 34
+    borderBottom: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_ms_or_0
+    x: 227
+    y: 317
+    width: 90
+    height: 96
+    borderLeft: 38
+    borderRight: 38
+    borderTop: 32
+    borderBottom: 48
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_ms_or_1
+    x: 321
+    y: 416
+    width: 90
+    height: 96
+    borderLeft: 38
+    borderRight: 38
+    borderTop: 32
+    borderBottom: 48
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_ms_or_2
+    x: 133
+    y: 417
+    width: 90
+    height: 95
+    borderLeft: 38
+    borderRight: 38
+    borderTop: 34
+    borderBottom: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_s_4
+    x: 98
+    y: 101
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 26
+    borderBottom: 32
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_bl_0
+    x: 0
+    y: 101
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 22
+    borderBottom: 38
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_bl_1
+    x: 196
+    y: 128
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 22
+    borderBottom: 38
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_bl_2
+    x: 196
+    y: 56
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 26
+    borderBottom: 32
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_gr_0
+    x: 294
+    y: 128
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 22
+    borderBottom: 38
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_gr_1
+    x: 98
+    y: 29
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 22
+    borderBottom: 38
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_gr_2
+    x: 0
+    y: 29
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 26
+    borderBottom: 32
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_na_0
+    x: 98
+    y: 173
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 22
+    borderBottom: 38
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_na_2
+    x: 94
+    y: 245
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 26
+    borderBottom: 32
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_or_0
+    x: 321
+    y: 272
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 22
+    borderBottom: 38
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_or_1
+    x: 321
+    y: 344
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 22
+    borderBottom: 38
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_or_2
+    x: 192
+    y: 245
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 26
+    borderBottom: 32
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_vi_0
+    x: 0
+    y: 173
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 22
+    borderBottom: 38
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_vi_1
+    x: 388
+    y: 200
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 22
+    borderBottom: 38
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_s_vi_2
+    x: 290
+    y: 200
+    width: 94
+    height: 68
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 26
+    borderBottom: 32
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_cmn_btn_bg_ss_4
+    x: 0
+    y: 268
+    width: 48
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_ss_or_0
+    x: 392
+    y: 86
+    width: 48
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_ss_or_1
+    x: 444
+    y: 86
+    width: 48
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_btn_bg_ss_or_2
+    x: 196
+    y: 201
+    width: 48
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_btn_icon_back_1
+    x: 419
+    y: 342
+    width: 74
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 6
+    paddingBottom: 4
+  - name: ui_cmn_btn_icon_back_2
+    x: 419
+    y: 272
+    width: 74
+    height: 66
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 10
+    paddingBottom: 4
+  - name: ui_cmn_btn_icon_back_4
+    x: 392
+    y: 130
+    width: 74
+    height: 66
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 10
+    paddingBottom: 4
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

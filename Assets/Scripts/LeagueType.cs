@@ -1,0 +1,26 @@
+public enum LeagueType
+{
+	F_M = 0,
+	F = 1,
+	F_P = 2,
+	E_M = 3,
+	E = 4,
+	E_P = 5,
+	D_M = 6,
+	D = 7,
+	D_P = 8,
+	C_M = 9,
+	C = 10,
+	C_P = 11,
+	B_M = 12,
+	B = 13,
+	B_P = 14,
+	A_M = 0xF,
+	A = 0x10,
+	A_P = 17,
+	S_M = 18,
+	S = 19,
+	S_P = 20,
+	NUM = 21,
+	NONE = -1
+}

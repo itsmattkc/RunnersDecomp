@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1611794667153937}
+  m_IsPrefabParent: 1
+--- !u!1 &1611794667153937
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4864664689129653}
+  - 114: {fileID: 114852333102021796}
+  m_Layer: 0
+  m_Name: ui_pause_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4864664689129653
+Transform:
+  m_GameObject: {fileID: 1611794667153937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114852333102021796
+MonoBehaviour:
+  m_GameObject: {fileID: 1611794667153937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 636febb29ff72bf4bb9a79778490eaa9, type: 2}
+  mSprites:
+  - name: ui_cmn_btn_icon_play
+    x: 0
+    y: 206
+    width: 41
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 17
+    paddingTop: 10
+    paddingBottom: 20
+  - name: ui_cmn_img_window_bg
+    x: 45
+    y: 240
+    width: 16
+    height: 16
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_load_img_bg
+    x: 0
+    y: 168
+    width: 120
+    height: 34
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 6
+  - name: ui_pause_deco_0
+    x: 186
+    y: 202
+    width: 58
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_pause_deco_1
+    x: 124
+    y: 200
+    width: 58
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

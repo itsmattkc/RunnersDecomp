@@ -1,0 +1,20 @@
+public enum ItemType
+{
+	INVINCIBLE = 0,
+	BARRIER = 1,
+	MAGNET = 2,
+	TRAMPOLINE = 3,
+	COMBO = 4,
+	LASER = 5,
+	DRILL = 6,
+	ASTEROID = 7,
+	NUM = 8,
+	BEGIN = 0,
+	UNKNOWN = -1,
+	REDSTAR_RING = -2,
+	TIMER_BRONZE = -3,
+	TIMER_SILVER = -4,
+	TIMER_GOLD = -5,
+	PHANTOM_START = 5,
+	PHANTOM_END = 8
+}

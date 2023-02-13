@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!91 &9100000
+AnimatorController:
+  m_Name: chao_animator
+  serializedVersion: 2
+  m_AnimatorParameters:
+  - m_Name: Ability
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_DefaultController: {fileID: 9100000}
+  m_AnimatorLayers:
+  - serializedVersion: 3
+    m_Name: Base Layer
+    m_StateMachine: {fileID: 1107418150254527839}
+    m_Mask: {fileID: 0}
+    m_BlendingMode: 0
+    m_SyncedLayerIndex: -1
+    m_StateMachineMotionSetIndex: 0
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_Controller: {fileID: 9100000}
+--- !u!1107 &1107418150254527839
+StateMachine:
+  serializedVersion: 2
+  m_Name: Base Layer
+  m_States:
+  - {fileID: 1102287038668276882}
+  - {fileID: 1102822655836932990}
+  m_ChildStateMachine: []
+  m_ChildStateMachinePosition: []
+  m_MotionSetCount: 1
+  m_OrderedTransitions:
+    data:
+      first: {fileID: 1102287038668276882}
+      second:
+      - {fileID: 1101980577171237321}
+    data:
+      first: {fileID: 1102822655836932990}
+      second:
+      - {fileID: 1101879872544155179}
+  m_StateMachineTransitions: {}
+  m_AnyStatePosition: {x: 0, y: -250, z: 0}
+  m_EntryPosition: {x: 250, y: -250, z: 0}
+  m_ExitPosition: {x: 500, y: -250, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 1102287038668276882}
+--- !u!1102 &1102287038668276882
+State:
+  m_Name: Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_ParentStateMachine: {fileID: 1107418150254527839}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_TimeParameterActive: 0
+  m_Motions:
+  - {fileID: 7400000, guid: cad2aa0908817bc41abb7fef7be70a79, type: 2}
+  m_Tag:
+  m_SpeedParameter:
+  m_MirrorParameter:
+  m_CycleOffsetParameter:
+  m_TimeParameter:
+--- !u!1101 &1101980577171237321
+Transition:
+  m_Name:
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Ability
+    m_EventTreshold: 0
+  m_SrcState: {fileID: 1102287038668276882}
+  m_DstState: {fileID: 1102822655836932990}
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  serializedVersion: 2
+  m_TransitionDuration: 0.125
+  m_TransitionOffset: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 1
+--- !u!1102 &1102822655836932990
+State:
+  m_Name: Ability
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_ParentStateMachine: {fileID: 1107418150254527839}
+  m_Position: {x: 250, y: 0, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_TimeParameterActive: 0
+  m_Motions:
+  - {fileID: 0}
+  m_Tag:
+  m_SpeedParameter:
+  m_MirrorParameter:
+  m_CycleOffsetParameter:
+  m_TimeParameter:
+--- !u!1101 &1101879872544155179
+Transition:
+  m_Name:
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Ability
+    m_EventTreshold: 0
+  m_SrcState: {fileID: 1102822655836932990}
+  m_DstState: {fileID: 1102287038668276882}
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  serializedVersion: 2
+  m_TransitionDuration: 0.05725191
+  m_TransitionOffset: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 1

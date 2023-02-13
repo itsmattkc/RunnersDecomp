@@ -1,0 +1,621 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1344317435939306}
+  m_IsPrefabParent: 1
+--- !u!1 &1344317435939306
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4126325182564947}
+  - 114: {fileID: 114604809029721794}
+  m_Layer: 0
+  m_Name: ui_shop_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4126325182564947
+Transform:
+  m_GameObject: {fileID: 1344317435939306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114604809029721794
+MonoBehaviour:
+  m_GameObject: {fileID: 1344317435939306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 361462d4a45262040bfc07d3b8e82be6, type: 2}
+  mSprites:
+  - name: ui_cmn_icon_ring
+    x: 315
+    y: 328
+    width: 36
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_icon_rsring
+    x: 315
+    y: 368
+    width: 36
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_circle
+    x: 67
+    y: 448
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg
+    x: 168
+    y: 23
+    width: 16
+    height: 16
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg2
+    x: 315
+    y: 476
+    width: 56
+    height: 36
+    borderLeft: 26
+    borderRight: 26
+    borderTop: 4
+    borderBottom: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_spacer
+    x: 195
+    y: 386
+    width: 8
+    height: 8
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_mainmenu_btn_presentbox_0
+    x: 0
+    y: 361
+    width: 63
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 24
+    paddingTop: 1
+    paddingBottom: 6
+  - name: ui_mainmenu_btn_presentbox_2
+    x: 0
+    y: 438
+    width: 63
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 8
+    paddingTop: 0
+    paddingBottom: 6
+  - name: ui_mm_contents_deco_saw_0
+    x: 0
+    y: 18
+    width: 128
+    height: 15
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_shop_bonus_bg
+    x: 132
+    y: 7
+    width: 32
+    height: 32
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 14
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_shop_bonus_bg2
+    x: 319
+    y: 440
+    width: 32
+    height: 32
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 14
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_shop_challenge_sprite_anim_10
+    x: 253
+    y: 205
+    width: 58
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_shop_challenge_sprite_anim_11
+    x: 252
+    y: 142
+    width: 58
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_shop_challenge_sprite_anim_12
+    x: 257
+    y: 408
+    width: 58
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_shop_challenge_sprite_anim_13
+    x: 190
+    y: 88
+    width: 58
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_shop_challenge_sprite_anim_14
+    x: 190
+    y: 34
+    width: 58
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_shop_challenge_sprite_anim_15
+    x: 199
+    y: 462
+    width: 58
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_shop_challenge_sprite_anim_16
+    x: 190
+    y: 142
+    width: 58
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_shop_challenge_sprite_anim_17
+    x: 254
+    y: 268
+    width: 58
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_shop_dec_star
+    x: 261
+    y: 462
+    width: 50
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_shop_eff_circle
+    x: 64
+    y: 166
+    width: 59
+    height: 59
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 2
+  - name: ui_shop_eff_ring
+    x: 0
+    y: 293
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_shop_img_ballon
+    x: 132
+    y: 321
+    width: 58
+    height: 59
+    borderLeft: 12
+    borderRight: 12
+    borderTop: 12
+    borderBottom: 12
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 3
+  - name: ui_shop_img_ballon_btm
+    x: 252
+    y: 106
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_shop_img_challenge
+    x: 195
+    y: 398
+    width: 58
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_shop_img_raidboss
+    x: 257
+    y: 352
+    width: 54
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 5
+    paddingBottom: 7
+  - name: ui_shop_img_ring
+    x: 127
+    y: 167
+    width: 59
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_shop_img_rsring
+    x: 0
+    y: 37
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_shop_ring_sprite_anim_10
+    x: 191
+    y: 259
+    width: 59
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_shop_ring_sprite_anim_11
+    x: 194
+    y: 322
+    width: 59
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_shop_ring_sprite_anim_12
+    x: 190
+    y: 196
+    width: 59
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_shop_ring_sprite_anim_13
+    x: 127
+    y: 105
+    width: 59
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_shop_ring_sprite_anim_14
+    x: 127
+    y: 43
+    width: 59
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_shop_ring_sprite_anim_15
+    x: 64
+    y: 104
+    width: 59
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_shop_ring_sprite_anim_16
+    x: 128
+    y: 258
+    width: 59
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_shop_ring_sprite_anim_17
+    x: 64
+    y: 42
+    width: 59
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_shop_rsr_sprite_anim_10
+    x: 64
+    y: 229
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_shop_rsr_sprite_anim_11
+    x: 0
+    y: 165
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_shop_rsr_sprite_anim_12
+    x: 131
+    y: 384
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_shop_rsr_sprite_anim_13
+    x: 0
+    y: 101
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_shop_rsr_sprite_anim_14
+    x: 67
+    y: 384
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_shop_rsr_sprite_anim_15
+    x: 0
+    y: 229
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_shop_rsr_sprite_anim_16
+    x: 135
+    y: 452
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_shop_rsr_sprite_anim_17
+    x: 68
+    y: 320
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

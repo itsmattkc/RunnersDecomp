@@ -1,0 +1,712 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1326158525510831}
+  m_IsPrefabParent: 1
+--- !u!1 &1326158525510831
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4554907779316117}
+  - 114: {fileID: 114030006310379833}
+  m_Layer: 0
+  m_Name: ui_general_window_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4554907779316117
+Transform:
+  m_GameObject: {fileID: 1326158525510831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114030006310379833
+MonoBehaviour:
+  m_GameObject: {fileID: 1326158525510831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: def66b9956564914dbf9bdbbba7ee6dc, type: 2}
+  mSprites:
+  - name: ui_cmn_btn_icon_close
+    x: 209
+    y: 160
+    width: 40
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_cmn_btn_icon_post
+    x: 224
+    y: 204
+    width: 52
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 14
+    paddingTop: 12
+    paddingBottom: 18
+  - name: ui_cmn_btn_icon_skip
+    x: 148
+    y: 149
+    width: 34
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_icon_star
+    x: 154
+    y: 195
+    width: 51
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: ui_cmn_img_circle
+    x: 320
+    y: 28
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_scroll_bar
+    x: 436
+    y: 243
+    width: 8
+    height: 16
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 4
+  - name: ui_cmn_img_star_s
+    x: 92
+    y: 18
+    width: 78
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_cmn_img_window_bg
+    x: 416
+    y: 243
+    width: 16
+    height: 16
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg_h
+    x: 334
+    y: 167
+    width: 32
+    height: 32
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 6
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg2
+    x: 346
+    y: 203
+    width: 56
+    height: 36
+    borderLeft: 26
+    borderRight: 26
+    borderTop: 4
+    borderBottom: 28
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg3
+    x: 452
+    y: 36
+    width: 56
+    height: 56
+    borderLeft: 26
+    borderRight: 26
+    borderTop: 4
+    borderBottom: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg4
+    x: 231
+    y: 258
+    width: 56
+    height: 56
+    borderLeft: 26
+    borderRight: 26
+    borderTop: 4
+    borderBottom: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg5
+    x: 76
+    y: 219
+    width: 15
+    height: 27
+    borderLeft: 14
+    borderRight: 1
+    borderTop: 12
+    borderBottom: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_pager_btn_0
+    x: 0
+    y: 133
+    width: 32
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 3
+  - name: ui_cmn_pager_btn_1
+    x: 36
+    y: 133
+    width: 32
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 3
+  - name: ui_cmn_pager_btn_2
+    x: 76
+    y: 145
+    width: 32
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 3
+  - name: ui_cmn_pager_btn_3
+    x: 112
+    y: 145
+    width: 32
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 3
+  - name: ui_cmn_tex_flame
+    x: 416
+    y: 263
+    width: 32
+    height: 32
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 10
+    borderBottom: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_gn_window_balloon
+    x: 174
+    y: 16
+    width: 75
+    height: 76
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_gn_window_btn_buy_arrow
+    x: 452
+    y: 5
+    width: 28
+    height: 27
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 1
+  - name: ui_gn_window_deco_0
+    x: 238
+    y: 385
+    width: 127
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_gn_window_deco_1
+    x: 369
+    y: 299
+    width: 46
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 10
+    paddingTop: 1
+    paddingBottom: 36
+  - name: ui_gn_window_deco_2
+    x: 48
+    y: 250
+    width: 44
+    height: 188
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 62
+  - name: ui_gn_window_deco_3
+    x: 300
+    y: 321
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_gn_window_deco_5
+    x: 469
+    y: 312
+    width: 38
+    height: 200
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 18
+    paddingBottom: 2
+  - name: ui_gn_window_deco_6
+    x: 469
+    y: 96
+    width: 34
+    height: 212
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 8
+    paddingBottom: 0
+  - name: ui_gn_window_deco_7
+    x: 291
+    y: 205
+    width: 51
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_gn_window_deco_8
+    x: 0
+    y: 8
+    width: 68
+    height: 8
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_gn_window_deco_9
+    x: 334
+    y: 131
+    width: 32
+    height: 32
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 14
+    borderBottom: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_gn_window_deco_event
+    x: 96
+    y: 279
+    width: 62
+    height: 60
+    borderLeft: 28
+    borderRight: 28
+    borderTop: 28
+    borderBottom: 28
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 0
+  - name: ui_gn_window_deco_event_0
+    x: 280
+    y: 166
+    width: 50
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_gn_window_deco_head_saw
+    x: 0
+    y: 205
+    width: 72
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 7
+    paddingTop: 1
+    paddingBottom: 22
+  - name: ui_gn_window_deco_parts_stars
+    x: 96
+    y: 343
+    width: 64
+    height: 95
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_gn_window_deco_parts1
+    x: 164
+    y: 307
+    width: 63
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_gn_window_deco_parts2
+    x: 360
+    y: 243
+    width: 52
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 6
+    paddingBottom: 6
+  - name: ui_gn_window_deco_parts3
+    x: 232
+    y: 318
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_gn_window_deco_w1
+    x: 419
+    y: 299
+    width: 46
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 10
+    paddingTop: 1
+    paddingBottom: 36
+  - name: ui_gn_window_deco_w2
+    x: 0
+    y: 250
+    width: 44
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 62
+  - name: ui_gn_window_deco_w3
+    x: 388
+    y: 32
+    width: 60
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_gn_window_download_slider
+    x: 209
+    y: 221
+    width: 8
+    height: 24
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_gn_window_pla_0
+    x: 0
+    y: 442
+    width: 234
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_gn_window_tex_frame
+    x: 406
+    y: 203
+    width: 38
+    height: 36
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 14
+    borderBottom: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_mainmenu_btn_option_0
+    x: 96
+    y: 217
+    width: 54
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 13
+    paddingTop: 8
+    paddingBottom: 14
+  - name: ui_mainmenu_btn_presentbox_1
+    x: 253
+    y: 19
+    width: 63
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 24
+    paddingTop: 1
+    paddingBottom: 6
+  - name: ui_mainmenu_btn_ranking_0
+    x: 162
+    y: 249
+    width: 58
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 11
+    paddingTop: 7
+    paddingBottom: 19
+  - name: ui_mainmenu_btn_roulette_0
+    x: 0
+    y: 20
+    width: 88
+    height: 72
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 2
+    paddingBottom: 6
+  - name: ui_mainmenu_btn_shop_0
+    x: 300
+    y: 261
+    width: 56
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 31
+    paddingTop: 7
+    paddingBottom: 17
+  - name: ui_mm_contents_deco_saw_0
+    x: 320
+    y: 9
+    width: 128
+    height: 15
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_mm_info_page_slider
+    x: 186
+    y: 168
+    width: 8
+    height: 23
+    borderLeft: 3
+    borderRight: 3
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_ranking_bg_6
+    x: 484
+    y: 8
+    width: 24
+    height: 24
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 8
+    borderBottom: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_tex_event_temp
+    x: 164
+    y: 374
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

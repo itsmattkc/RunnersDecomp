@@ -1,0 +1,920 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1608707932430096}
+  m_IsPrefabParent: 1
+--- !u!1 &1608707932430096
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4167041675499417}
+  - 114: {fileID: 114126196592579429}
+  m_Layer: 0
+  m_Name: ui_load_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4167041675499417
+Transform:
+  m_GameObject: {fileID: 1608707932430096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114126196592579429
+MonoBehaviour:
+  m_GameObject: {fileID: 1608707932430096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 261665a97a7b49b46b818b181abcd218, type: 2}
+  mSprites:
+  - name: ui_chao_set_balloon_0
+    x: 643
+    y: 660
+    width: 41
+    height: 80
+    borderLeft: 5
+    borderRight: 35
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_chao_set_bg_load_0
+    x: 258
+    y: 627
+    width: 154
+    height: 233
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_chao_set_bg_load_1
+    x: 416
+    y: 545
+    width: 154
+    height: 233
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_chao_set_bg_load_2
+    x: 0
+    y: 467
+    width: 154
+    height: 233
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_chao_set_bg_load_3
+    x: 158
+    y: 390
+    width: 154
+    height: 233
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_chao_set_bonus_icon_animal
+    x: 916
+    y: 512
+    width: 62
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_chao_set_bonus_icon_fscore
+    x: 730
+    y: 503
+    width: 63
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 9
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_chao_set_bonus_icon_range
+    x: 158
+    y: 646
+    width: 83
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_chao_set_bonus_icon_ring
+    x: 858
+    y: 503
+    width: 54
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 14
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_chao_set_bonus_icon_rsr
+    x: 574
+    y: 686
+    width: 65
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_chao_set_bonus_icon_score
+    x: 916
+    y: 571
+    width: 62
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_chao_set_dec_0
+    x: 143
+    y: 306
+    width: 159
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_chao_set_dec_1
+    x: 316
+    y: 373
+    width: 159
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_chao_set_dec_2
+    x: 306
+    y: 289
+    width: 159
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_chao_set_dec_3
+    x: 479
+    y: 352
+    width: 159
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_chao_set_pla_0
+    x: 955
+    y: 822
+    width: 34
+    height: 80
+    borderLeft: 28
+    borderRight: 5
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_chao_set_type_icon_fly
+    x: 797
+    y: 500
+    width: 57
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_chao_set_type_icon_power
+    x: 955
+    y: 906
+    width: 57
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_chao_set_type_icon_speed
+    x: 955
+    y: 967
+    width: 57
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_cmn_img_star
+    x: 705
+    y: 790
+    width: 246
+    height: 234
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 7
+    paddingBottom: 7
+  - name: ui_cmn_img_window_bg
+    x: 479
+    y: 437
+    width: 16
+    height: 16
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_spacer
+    x: 128
+    y: 277
+    width: 8
+    height: 8
+    borderLeft: 2
+    borderRight: 2
+    borderTop: 2
+    borderBottom: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_tex_flame
+    x: 28
+    y: 205
+    width: 32
+    height: 32
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 10
+    borderBottom: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_gn_window_deco_event
+    x: 316
+    y: 563
+    width: 62
+    height: 60
+    borderLeft: 28
+    borderRight: 28
+    borderTop: 28
+    borderBottom: 28
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 0
+  - name: ui_gn_window_deco_event_0
+    x: 963
+    y: 636
+    width: 50
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_load_img_bg
+    x: 574
+    y: 744
+    width: 120
+    height: 34
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_load_tips_char_0
+    x: 730
+    y: 561
+    width: 182
+    height: 65
+    borderLeft: 58
+    borderRight: 118
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 0
+  - name: ui_load_tips_char_1
+    x: 0
+    y: 338
+    width: 139
+    height: 125
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 15
+    paddingTop: 24
+    paddingBottom: 0
+  - name: ui_load_tips_char_2
+    x: 574
+    y: 480
+    width: 152
+    height: 146
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 0
+  - name: ui_load_tips_deco_0
+    x: 430
+    y: 782
+    width: 271
+    height: 242
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 0
+  - name: ui_load_tips_deco_1
+    x: 524
+    y: 436
+    width: 426
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 26
+    borderBottom: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_load_tips_deco_2
+    x: 0
+    y: 864
+    width: 426
+    height: 160
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 28
+    borderBottom: 124
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_loading_balloon
+    x: 316
+    y: 457
+    width: 204
+    height: 84
+    borderLeft: 34
+    borderRight: 34
+    borderTop: 32
+    borderBottom: 36
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 0
+  - name: ui_loading_bar
+    x: 574
+    y: 634
+    width: 49
+    height: 48
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 20
+    borderBottom: 20
+    paddingLeft: 1
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_mm_load_img_bg_0
+    x: 705
+    y: 630
+    width: 254
+    height: 156
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_mm_load_img_bg_1
+    x: 0
+    y: 704
+    width: 254
+    height: 156
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_ranking_bg_6
+    x: 993
+    y: 830
+    width: 24
+    height: 24
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 8
+    borderBottom: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_test_icon_ring00
+    x: 524
+    y: 495
+    width: 46
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_test_icon_ring01
+    x: 963
+    y: 773
+    width: 46
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring02
+    x: 963
+    y: 675
+    width: 44
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring03
+    x: 954
+    y: 463
+    width: 44
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring04
+    x: 94
+    y: 289
+    width: 42
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring05
+    x: 0
+    y: 241
+    width: 40
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring06
+    x: 982
+    y: 538
+    width: 37
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring07
+    x: 982
+    y: 587
+    width: 37
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 6
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring08
+    x: 181
+    y: 258
+    width: 34
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring09
+    x: 257
+    y: 257
+    width: 32
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring10
+    x: 164
+    y: 210
+    width: 29
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 10
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring11
+    x: 197
+    y: 210
+    width: 25
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 12
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring12
+    x: 226
+    y: 210
+    width: 24
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring13
+    x: 64
+    y: 193
+    width: 20
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 14
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring14
+    x: 88
+    y: 193
+    width: 16
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 16
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring15
+    x: 108
+    y: 193
+    width: 14
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 17
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring16
+    x: 0
+    y: 145
+    width: 17
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 15
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring17
+    x: 28
+    y: 157
+    width: 19
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 14
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring18
+    x: 0
+    y: 193
+    width: 24
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring19
+    x: 993
+    y: 858
+    width: 25
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 11
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring20
+    x: 382
+    y: 579
+    width: 29
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 9
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring21
+    x: 128
+    y: 210
+    width: 32
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 7
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring22
+    x: 219
+    y: 258
+    width: 34
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring23
+    x: 87
+    y: 241
+    width: 37
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 5
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring24
+    x: 140
+    y: 258
+    width: 37
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 5
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring25
+    x: 44
+    y: 241
+    width: 39
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring26
+    x: 47
+    y: 290
+    width: 43
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring27
+    x: 0
+    y: 290
+    width: 43
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_test_icon_ring28
+    x: 963
+    y: 724
+    width: 45
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_test_icon_ring29
+    x: 954
+    y: 415
+    width: 44
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

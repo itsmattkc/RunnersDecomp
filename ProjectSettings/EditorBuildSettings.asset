@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/Title/s_title.unity
+    guid: 91d97b71e17f4c147bed339468f77d6e
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/Title/s_title_reset.unity
+    guid: 5a0b1c84377524149926d087245385b0
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/Debug/DebugMenu.unity
+    guid: d06e74c4fbe5a124590eed3b80f93352
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/stage/s_playingstage.unity
+    guid: 3e391134b58a98e44bd9fb94674631aa
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/Menu/MainMenu.unity
+    guid: 37a572e6f9bea3544aed73274e47f333
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/ResourceData/CommonObjectPrefabs.unity
+    guid: 974f5802c050f554d81cdf1728ddb347
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/ResourceData/CommonEnemyPrefabs.unity
+    guid: 825cb6ca3dc232f429178cf3d3d7d111
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/UI/Roulette/RouletteAnim.unity
+    guid: 79b05e21323e796468e528763154233a
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/UI/Roulette/TutorialAnim.unity
+    guid: e68ecb7dfc50724499f12c5651cc96f1
+  - enabled: 1
+    path: Assets/Runners Assets/Scenes/UI/ShopMenu/AgeVerificationWindow.unity
+    guid: 05ff78ef69562b94c88a37b6c147615b

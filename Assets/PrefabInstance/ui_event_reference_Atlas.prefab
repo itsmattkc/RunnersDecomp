@@ -1,0 +1,348 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1406173941772200}
+  m_IsPrefabParent: 1
+--- !u!1 &1406173941772200
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4655101259846057}
+  - 114: {fileID: 114891626582593579}
+  m_Layer: 0
+  m_Name: ui_event_reference_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4655101259846057
+Transform:
+  m_GameObject: {fileID: 1406173941772200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114891626582593579
+MonoBehaviour:
+  m_GameObject: {fileID: 1406173941772200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 433ad51d71cbe64429039ddd8ec5ba32, type: 2}
+  mSprites:
+  - name: ui_cmn_icon_raidchallenge
+    x: 325
+    y: 76
+    width: 36
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_icon_raidStrikePower
+    x: 285
+    y: 89
+    width: 36
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_cmn_img_window_bg
+    x: 350
+    y: 273
+    width: 16
+    height: 16
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 4
+  - name: ui_cmn_spacer
+    x: 493
+    y: 400
+    width: 8
+    height: 8
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_event_bestchao_window_bg
+    x: 0
+    y: 278
+    width: 215
+    height: 115
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 98
+    borderBottom: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_event_bg
+    x: 350
+    y: 116
+    width: 64
+    height: 64
+    borderLeft: 24
+    borderRight: 24
+    borderTop: 24
+    borderBottom: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_event_ranking_caption_bg
+    x: 0
+    y: 121
+    width: 243
+    height: 49
+    borderLeft: 28
+    borderRight: 28
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 3
+  - name: ui_event_ranking_world_sonicmedal_red
+    x: 219
+    y: 174
+    width: 127
+    height: 115
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_event_roulette_bestchao_base
+    x: 381
+    y: 266
+    width: 116
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_event_roulette_bestchao_button_1
+    x: 418
+    y: 92
+    width: 63
+    height: 42
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_event_roulette_bestchao_button_2
+    x: 247
+    y: 129
+    width: 63
+    height: 41
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 5
+    paddingBottom: 2
+  - name: ui_event_roulette_bestchao_button_3
+    x: 418
+    y: 138
+    width: 63
+    height: 42
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 3
+  - name: ui_event_roulette_bestchao_button_base
+    x: 448
+    y: 467
+    width: 49
+    height: 45
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_event_roulette_bestchao_deco1
+    x: 247
+    y: 82
+    width: 34
+    height: 43
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 1
+  - name: ui_event_roulette_bestchao_deco2
+    x: 493
+    y: 412
+    width: 15
+    height: 15
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: ui_event_roulette_bestchao_light_1
+    x: 0
+    y: 397
+    width: 220
+    height: 115
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_event_roulette_bestchao_light_2
+    x: 224
+    y: 397
+    width: 220
+    height: 115
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_load_img_bg
+    x: 0
+    y: 83
+    width: 120
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 6
+  - name: ui_result_bg_7
+    x: 448
+    y: 431
+    width: 50
+    height: 32
+    borderLeft: 24
+    borderRight: 24
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_result_event_mission_nextbg
+    x: 448
+    y: 398
+    width: 41
+    height: 29
+    borderLeft: 14
+    borderRight: 14
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_result_event_reword_bestitem_bg
+    x: 0
+    y: 205
+    width: 199
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 2
+  - name: ui_result_event_reword_leftwindow_bg
+    x: 219
+    y: 293
+    width: 158
+    height: 100
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 82
+    borderBottom: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ui_result_event_reword_leftwindow_deco_s
+    x: 350
+    y: 184
+    width: 144
+    height: 78
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

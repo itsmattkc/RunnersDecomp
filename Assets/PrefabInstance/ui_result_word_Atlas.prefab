@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1209350300640194}
+  m_IsPrefabParent: 1
+--- !u!1 &1209350300640194
+GameObject:
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4552786556154736}
+  - 114: {fileID: 114139850970947838}
+  m_Layer: 0
+  m_Name: ui_result_word_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4552786556154736
+Transform:
+  m_GameObject: {fileID: 1209350300640194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114139850970947838
+MonoBehaviour:
+  m_GameObject: {fileID: 1209350300640194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a8793994646bf4281fe796282f5832, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: ea258ce6ef4dd7f4cb8365016ecbb499, type: 2}
+  mSprites:
+  - name: ui_result_word_campaignbonus1
+    x: 0
+    y: 346
+    width: 506
+    height: 78
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 9
+    paddingBottom: 5
+  - name: ui_result_word_chaobonus1
+    x: 0
+    y: 428
+    width: 506
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 4
+  - name: ui_result_word_char
+    x: 0
+    y: 121
+    width: 193
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 4
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_result_word_mileage
+    x: 345
+    y: 203
+    width: 134
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 33
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ui_result_word_nomiss
+    x: 345
+    y: 232
+    width: 153
+    height: 27
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 23
+    paddingTop: 1
+    paddingBottom: 1
+  - name: ui_result_word_playerbonus1
+    x: 0
+    y: 263
+    width: 498
+    height: 79
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 4
+    paddingTop: 8
+    paddingBottom: 5
+  - name: ui_result_word_special_egg
+    x: 0
+    y: 150
+    width: 341
+    height: 109
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

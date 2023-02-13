@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APP_ID</key>
+	<string></string>
+	<key>APP_OPTIONS</key>
+	<string></string>
+	<key>APP_SALT</key>
+	<string></string>
+	<key>CONVERSION_MODE</key>
+	<string>0</string>
+	<key>SERVER_URL</key>
+	<string></string>
+	<key>ANALYTICS_APP_KEY</key>
+	<string></string>
+</dict>
+</plist>
