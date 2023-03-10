@@ -29,7 +29,7 @@ Sonic Runners relied on Unity AssetBundles to deliver gameplay components (e.g. 
 
 Sonic Runners has a development mode that allows loading the assets locally rather than from compiled server AssetBundles. To enable this:
 
-1. Clone the [asset bundles repository](https://github.com/itsmattkc/RunnersAssetBundleDecomp) into the project's Assets folder (preferably into its own folder for organization).
+1. Clone the [asset bundles repository](https://github.com/itsmattkc/RunnersAssetBundleDecomp) into a folder called `AssetBundles` in the project's Assets folder. If the folder is cloned as `RunnersAssetBundleDecomp`, it must be renamed to `AssetBundles`.
 1. In Unity, open the project's build settings (File > Build Settings) and add all of the scenes from the AssetBundle repository.
 1. Open `Env.cs` and set the variable `m_useAssetBundle` to `false`. This will tell the game to load scenes locally rather than attempt to download them.
 
