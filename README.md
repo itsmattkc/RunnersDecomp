@@ -19,7 +19,9 @@ By doing this, you will prevent scenes from losing component references related 
 
 ### Setting up Unity
 
-You will need to acquire Unity 4.6.9. This was the version of Unity that Sega originally used to build Runners 2.0.3, and later versions are known to cause compatibility issues. As Unity has delisted versions prior to 5.x, I have [archived this version here](https://archive.org/details/unity4.6.9).
+For this project, it's highly recommended to use Unity 4.6.9. That was the version of Unity that was last used by Sega for this project, and later versions are known to cause compatibility issues.
+
+Unity versions before 5.x have been "soft-delisted" from the website, however there are still direct links available here: https://forum.unity.com/threads/early-unity-versions-downloads.1483758/
 
 By default, Unity will be in personal/free mode, but unfortunately some parts of Runners (notably CriWare and AssetBundles) require "pro" mode. Legally, we cannot provide this, you'll need to acquire a Unity Pro license key yourself for Runners to function correctly.
 
